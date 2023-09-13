@@ -1,0 +1,17 @@
+{
+    "name": "Survivor",
+    "rootNamespace": "Survivor",
+    "references": [
+        "GUID:6a44e63dea9ba8b4dbf4b27ee0ccfc13",
+        "GUID:78a73499e58b1db47bf301a73a686572"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
