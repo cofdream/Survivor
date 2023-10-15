@@ -3,7 +3,8 @@
     "rootNamespace": "Survivor",
     "references": [
         "GUID:6a44e63dea9ba8b4dbf4b27ee0ccfc13",
-        "GUID:78a73499e58b1db47bf301a73a686572"
+        "GUID:78a73499e58b1db47bf301a73a686572",
+        "GUID:cdcec9d90e0639f4bac16601dc92123e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

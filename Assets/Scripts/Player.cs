@@ -1,6 +1,8 @@
 using Cofdream.TwoD;
+using Cofdream.UI;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace Survivor
 {
@@ -16,6 +18,8 @@ namespace Survivor
 
         void Start()
         {
+           
+
             triggerEnterEvent2D = TriggerEnterEvent2D;
 
             hurtBox.TriggerEnterEvent2D.AddListener(triggerEnterEvent2D);
@@ -39,7 +43,12 @@ namespace Survivor
 
         private void TriggerEnterEvent2D(Collider2D collision)
         {
-           GameObject.Destroy(this.gameObject);
+            GameObject.Destroy(this.gameObject);
+
+
+            var panel = Resources.Load<GameObject>("UIGameSettlementPanel");
+            UIManager.OpenPanel(panel);
+            //Resources.UnloadAsset(panel);
         }
     }
 

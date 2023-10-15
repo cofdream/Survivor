@@ -11,6 +11,8 @@ namespace Survivor
         [SerializeField] private float movementSpeed = 500;
         [SerializeField] private Player player;
 
+        public Player Player { get { return player; } set { player = value; } }
+
         void Start()
         {
 
