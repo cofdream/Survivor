@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.cofdream.framework": {
-      "version": "https://github.com/cofdream/UnityFramework.git#upm",
+      "version": "file:E:/Projects/UnityPorjects/UnityFramework/Assets/Framework",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "ea0a0be674e213695401af8fe4ba807958726858"
+      "source": "local",
+      "dependencies": {}
     },
     "com.cofdream.toolkit": {
       "version": "https://github.com/cofdream/UnityUtilityKit.git#upm",

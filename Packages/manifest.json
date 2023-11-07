@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.cofdream.framework": "https://github.com/cofdream/UnityFramework.git#upm",
+    "com.cofdream.framework": "file:E:/Projects/UnityPorjects/UnityFramework/Assets/Framework",
     "com.cofdream.toolkit": "https://github.com/cofdream/UnityUtilityKit.git#upm",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.7",
